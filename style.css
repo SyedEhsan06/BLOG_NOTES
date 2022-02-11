@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    /* font-size: .1iin; */
+}
+
+li.nav-item {
+    margin-right: 2rem;
+}
+/* .earnmoney{
+    color: goldenrod;
+} */
+.position-relative,overflow-hidden,text-center,bg-light{
+    background: url(backgroumd.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 3px solid;
+}
+li.nav-item.earnmoney {
+    background-color: gold;
+}
+.line {
+    font-weight: bolder;
+    font-size: large;
+    border: 0.4vh solid darkgreen;
+    border-radius: 32%;
+}
+.hrmiddle{
+    font-family: cursive;
+    text-align: center;
+}
+.cardContainer{
+    display: flex;
+    gap: 2px;
+    justify-content: space-around;
+}
+.card-img-top{
+    height: 12rem;
+    object-fit: cover;
+    object-position: center center;
+}
+/* @media screen and (max-width : 990px) {
+    li.nav-item.earnmoney{
+        width: ;
+    }
+} */
